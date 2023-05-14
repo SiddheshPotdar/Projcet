@@ -1,0 +1,67 @@
+.contactUs {
+	background-color: #fff;
+	padding: 3rem;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+.contactUs h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.contactItem {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 1.2rem;
+}
+
+.contactItem i {
+	font-size: 1.5rem;
+	color: #ff5500;
+}
+
+.contactItem p {
+	margin: 0;
+	font-weight: bold;
+	color: #333;
+}
+
+.contactItem a {
+	color: #333;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.contactItem a:hover {
+	color: #ff5500;
+}
+
+@media screen and (min-width: 768px) {
+	.contact-info {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.contactItem {
+		font-size: 1.5rem;
+	}
+
+	.contactItem i {
+		font-size: 2rem;
+	}
+
+	.contactItem p {
+		margin-left: 1rem;
+	}
+}

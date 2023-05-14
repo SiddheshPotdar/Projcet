@@ -1,0 +1,66 @@
+/* *font imoprts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.info {
+	background-color: #000;
+	border-top: 1px solid #fff;
+	padding: 30px;
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.info h2 {
+	font-family: "Open Sans";
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	/* margin-top: 10px; */
+}
+.card {
+	padding: 20px;
+	margin: 20px;
+	height: 300px;
+	width: 400px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid gray;
+	border-radius: 5%;
+	box-shadow: 2.3px 2.3px 1.9px rgba(0, 0, 0, 0.018),
+		5.4px 5.4px 4.3px rgba(0, 0, 0, 0.026),
+		9.7px 9.7px 7.7px rgba(0, 0, 0, 0.032),
+		16.1px 16.1px 12.8px rgba(0, 0, 0, 0.038),
+		26.5px 26.5px 21.2px rgba(0, 0, 0, 0.044),
+		46.2px 46.2px 37px rgba(0, 0, 0, 0.052),
+		100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.card h5 {
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	letter-spacing: 0.5px;
+}
+.card h5 span {
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+/* todo: page loading css */
+.loading {
+	color: white;
+	text-align: center;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 30px;
+}

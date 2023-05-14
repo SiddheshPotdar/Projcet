@@ -1,0 +1,64 @@
+/* *font imports */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.footer {
+	height: 40vh;
+}
+.msg {
+	padding: 30px 100px;
+}
+.msg h2 {
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.msgPara {
+	padding: 1rem;
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.022),
+		6.7px 6.7px 5.3px rgba(0, 0, 0, 0.032),
+		12.5px 12.5px 10px rgba(0, 0, 0, 0.04),
+		22.3px 22.3px 17.9px rgba(0, 0, 0, 0.047),
+		41.8px 41.8px 33.4px rgba(0, 0, 0, 0.056),
+		100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+.content {
+	z-index: 20;
+	padding: 30px 50px;
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 1px solid gray;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+}
+.col h2 {
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 600;
+}
+.col li {
+	margin-top: 10px;
+	list-style: none;
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+.social {
+	padding: 10px 50px;
+	display: flex;
+	align-items: center;
+}
+.social span {
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-style: italic;
+}
+.socialIcon {
+	margin-left: 10px;
+}
